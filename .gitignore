@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+conda-env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Training outputs
+runs/
+wandb/
+tensorboard/
+*.cache
+events.out.tfevents*
+
+# Datasets and private materials
+data/
+datasets/
+raw_data/
+*.zip
+*.tar
+*.rar
+*.7z
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.pdf
+*.ofd
+
+# Model weights / exports
+*.pt
+*.pth
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.pb
+*.mlmodel
+*.bin
+
+# Local config with absolute paths
+configs/sdses_ssp.yaml
+.env

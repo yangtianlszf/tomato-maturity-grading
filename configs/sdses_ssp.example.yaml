@@ -1,0 +1,13 @@
+# Dataset config template for fruit and vegetable maturity detection.
+# Copy this file to configs/sdses_ssp.yaml and update `path`.
+
+path: /path/to/dataset/root
+train: train
+val: val
+test: test
+
+names:
+  0: WhiteStage
+  1: TurningStage
+  2: MatureStage
+  3: RipeStage
